@@ -4969,16 +4969,19 @@ a.list-group-item.active > .badge,
 .panel-heading{
     font-size:30px;
 }
+.panel-body{
+    font-size:15px;
+}
 .jumbotron-actual-text{
     text-align:center;
     font-size: 50px;
 }
-.pay-header{
-   
+.row-info{
+   padding-bottom: 40px;
 }
 
 .row-info .col-sm-6{
-    padding-bottom: 40px;
+    
     height: 170px;
     vertical-align: auto
 }
