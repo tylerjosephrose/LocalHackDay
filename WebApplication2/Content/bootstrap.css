@@ -4958,6 +4958,7 @@ a.list-group-item.active > .badge,
 
 .jumbotron {
   padding: 30px;
+  margin-top: 25px;
   margin-bottom: 30px;
   font-size: 100px;
   font-weight: 200;
