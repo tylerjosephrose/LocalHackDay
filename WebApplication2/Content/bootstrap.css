@@ -4540,6 +4540,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #000;
   font-size: 20pt;
   font-weight: bold;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:60px
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4556,7 +4559,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #428bca;
   padding-top:10px;
   padding-bottom:10px;
-  margin-top:65px;
+  margin-top:60px;
 }
 
 /*changes the active tab color for account management tabs*/
@@ -4567,7 +4570,7 @@ nav navbar-nav navbar-right > .active > a:focus {
   background-color: #428bca;
   padding-top:10px;
   padding-bottom:10px;
-  margin-top:65px;
+  margin-top:60px;
  }
 
 .navbar-inverse .navbar-nav > .disabled > a,
