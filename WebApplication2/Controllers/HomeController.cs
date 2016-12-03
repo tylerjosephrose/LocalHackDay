@@ -15,7 +15,7 @@ namespace WebApplication2.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Application description page.";
 
             return View();
         }
@@ -23,6 +23,15 @@ namespace WebApplication2.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        // <Seth Dippold> 03-Dec-2016
+        // Adding FAQ controller page
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "FAQ Page";
 
             return View();
         }
