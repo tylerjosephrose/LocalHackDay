@@ -4956,6 +4956,7 @@ a.list-group-item.active > .badge,
     color: #0084c6
 }
 
+/*added top margin*/
 .jumbotron {
   padding: 30px;
   margin-top: 25px;
