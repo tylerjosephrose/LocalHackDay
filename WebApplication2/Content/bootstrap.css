@@ -335,7 +335,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #428bc8;
   text-decoration: none;
 }
 
@@ -1646,7 +1646,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #333333;
+  color: #ffffff;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -4441,7 +4441,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e6e6e6;
+  border-color: #e666e6;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
@@ -4506,7 +4506,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+    /*
+        This is for the application title color
+        Tyler Rose
+    */
+  color: #000;
 }
 
 .navbar-inverse .navbar-brand:hover,
