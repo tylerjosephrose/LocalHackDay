@@ -4941,9 +4941,6 @@ a.list-group-item.active > .badge,
 /*
     kump
 */
-.jumbotron-text-top{
-    text-align: center;
-}
 
 .list-group-pay{
     font-size: 16px;
@@ -4954,13 +4951,12 @@ a.list-group-item.active > .badge,
 }
 .jumbotron-actual-text{
     font-size: 75px;
-    text-align: center;
     color: #0084c6
 }
 
 /*added top margin*/
 .jumbotron {
-  padding: 30px;
+  padding: 15px;
   margin-top: 25px;
   margin-bottom: 30px;
   font-size: 100px;
@@ -4984,12 +4980,10 @@ a.list-group-item.active > .badge,
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+
   }
   .container .jumbotron {
     padding-right: 60px;
-    padding-left: 60px;
   }
   .jumbotron h1 {
     font-size: 63px;
