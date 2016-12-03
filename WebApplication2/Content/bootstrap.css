@@ -4934,6 +4934,23 @@ a.list-group-item.active > .badge,
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+/*
+    kump
+*/
+.jumbotron-text-top{
+    text-align: center;
+}
+
+.jumbotron-text-bottom{
+    text-align: center;
+}
+.pay-button{
+    text-align: center;
+}
+.jumbotron-actual-text{
+    font-size: 75px;
+    color: #0084c6
+}
 
 .jumbotron {
   padding: 30px;
