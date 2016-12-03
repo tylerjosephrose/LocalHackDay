@@ -4280,8 +4280,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 75px;
+    padding-bottom: 5px;
   }
 }
 
@@ -4528,7 +4528,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+    /*
+        This is the color for the other tabs
+        Tyler Rose
+    */
+  color: #000;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
