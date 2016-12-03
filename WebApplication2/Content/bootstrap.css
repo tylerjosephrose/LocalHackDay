@@ -6875,4 +6875,18 @@ td.visible-print {
 @media (max-width: 768px){
     .mobile{display:block;}
     .desktop{display:none}
+    footer p{
+        text-align:center;
+        font-size:10px;
+    }
+}
+
+footer p{
+    text-align:center;
+    font-size:14px;
+    font-style:italic;
+}
+
+.small-footer{
+    font-size:11px;
 }
