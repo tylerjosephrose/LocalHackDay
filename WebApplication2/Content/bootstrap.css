@@ -4966,6 +4966,25 @@ a.list-group-item.active > .badge,
 /*
     kump
 */
+.panel-heading{
+    font-size:30px;
+}
+.panel-body{
+    font-size:15px;
+}
+.jumbotron-actual-text{
+    text-align:center;
+    font-size: 50px;
+}
+.row-info{
+   padding-bottom: 40px;
+}
+
+.row-info .col-sm-6{
+    
+    height: 170px;
+    vertical-align: auto
+}
 
 .list-group-pay{
     font-size: 16px;
@@ -4976,13 +4995,11 @@ a.list-group-item.active > .badge,
 }
 .jumbotron-actual-text{
     font-size: 75px;
-    color: #0084c6
 }
 
 /*added top margin*/
 .jumbotron {
   padding: 15px;
-  margin-top: 25px;
   margin-bottom: 30px;
   font-size: 100px;
   font-weight: 200;
@@ -6875,4 +6892,18 @@ td.visible-print {
 @media (max-width: 768px){
     .mobile{display:block;}
     .desktop{display:none}
+    footer p{
+        text-align:center;
+        font-size:10px;
+    }
+}
+
+footer p{
+    text-align:center;
+    font-size:14px;
+    font-style:italic;
+}
+
+.small-footer{
+    font-size:11px;
 }
