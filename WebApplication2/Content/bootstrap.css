@@ -6840,3 +6840,14 @@ td.visible-print {
     display: none !important;
   }
 }
+
+/*don't display phone number as a link on desktop*/
+@media (min-width: 768px){
+    .mobile{display:none;}
+    .desktop{display:block}
+}
+/*display phone number as a link on mobile*/
+@media (max-width: 768px){
+    .mobile{display:block;}
+    .desktop{display:none}
+}
