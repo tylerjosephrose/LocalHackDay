@@ -4966,6 +4966,22 @@ a.list-group-item.active > .badge,
 /*
     kump
 */
+.panel-heading{
+    font-size:30px;
+}
+.jumbotron-actual-text{
+    text-align:center;
+    font-size: 50px;
+}
+.pay-header{
+   
+}
+
+.row-info .col-sm-6{
+    padding-bottom: 40px;
+    height: 170px;
+    vertical-align: auto
+}
 
 .list-group-pay{
     font-size: 16px;
@@ -4976,13 +4992,11 @@ a.list-group-item.active > .badge,
 }
 .jumbotron-actual-text{
     font-size: 75px;
-    color: #0084c6
 }
 
 /*added top margin*/
 .jumbotron {
   padding: 15px;
-  margin-top: 25px;
   margin-bottom: 30px;
   font-size: 100px;
   font-weight: 200;
