@@ -4194,7 +4194,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 20px;
 }
 
@@ -4501,7 +4501,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #0b17f6;
+    /*
+        This is for the title bar color
+        Tyler Rose
+    */
+  background-color: #0084c6;
   border-color: #060521;
 }
 
