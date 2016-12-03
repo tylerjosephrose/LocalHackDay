@@ -4,31 +4,38 @@
 }
 
 
-<div class="jumbotron">
+<div class="pay-your-bill-pics">
     <div class="jumbotron-text-top">
-        <div class="jumbotron-actual-text">Pay here!</div>
+        
         <IMG SRC="http://i.imgur.com/ft8lJpL.png" ALT="PICTURR IS HERRR" WIDTH="777" HEIGHT="382">
         <!--<div class="jumbotron-actual-text">Pay here!</div>-->
     </div>
 </div>
 
-
-<div class="row">
-    <div class="col-sm-6" style="background-color:yellow;">
-        <p>Lorem ipsum...</p>
-    </div>
-    <div class="col-sm-6" style="background-color:pink;">
-        <p>Sed ut perspiciatis...</p>
-    </div>
+<div class="pay-header">
+    <div class="jumbotron-actual-text">Please read below before paying!</div>
 </div>
 
-<div class="pay-button">
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="LQUT433RVFMCL">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
+<div class="paying-box">
+    <div class="row-info">
+        <div class="col-sm-6">
+            <h2>Description box</h2>
+            <p>Put your address and amount of months paid for in description box.</p>
+        </div>
+        <div class="col-sm-6">
+            <h2>Price per item</h2>
+            <p>Put your TOTAL amount you wish to pay. The bill and tip added together. Quantity is meant to be uneditable.</p>
+        </div>
+    </div>
+
+    <div class="pay-button">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="LQUT433RVFMCL">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
 </div>
 
 
