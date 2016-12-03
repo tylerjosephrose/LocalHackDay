@@ -1,6 +1,8 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+
 }
+
 
 <div class="jumbotron">
     <div class="jumbotron-text-top">
@@ -8,9 +10,10 @@
     </div>
 </div>
 
-<div class="jumbotron-text-bottom">
-    <p>Please click the button below to pay your Forest Hills Journal bill.</p>
-</div>
+<ul class="list-group-pay">
+    <li class="list-group-item">Please click the button below to pay your Forest Hills Journal bill.</li>
+    <li class="list-group-item">Input the <strong style="color:indianred;">TOTAL</strong> (bill + tip) on PayPal</li>
+</ul>
 
 <div class="pay-button">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

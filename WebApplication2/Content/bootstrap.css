@@ -4945,7 +4945,8 @@ a.list-group-item.active > .badge,
     text-align: center;
 }
 
-.jumbotron-text-bottom{
+.list-group-pay{
+    font-size: 16px;
     text-align: center;
 }
 .pay-button{
@@ -4953,6 +4954,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron-actual-text{
     font-size: 75px;
+    text-align: center;
     color: #0084c6
 }
 
@@ -4963,7 +4965,6 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   font-size: 100px;
   font-weight: 200;
-  line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
 }
