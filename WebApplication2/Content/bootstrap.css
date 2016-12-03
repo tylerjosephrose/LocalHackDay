@@ -5007,10 +5007,6 @@ a.list-group-item.active > .badge,
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
-
-          /*
-              http://i.imgur.com/ft8lJpL.png
-          */
 }
 
 .thumbnail > img {
