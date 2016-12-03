@@ -4286,7 +4286,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
       */
     padding-top: 75px;
     padding-bottom: 5px;
-    padding-right: 70px;
+
   }
 }
 
@@ -4538,7 +4538,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
         Tyler Rose
     */
   color: #000;
-  font-size: 22pt;
+  font-size: 20pt;
   font-weight: bold;
 }
 
@@ -4554,8 +4554,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #428bca;
-  padding-top:5px;
-  margin-top:70px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:65px;
 }
 
 /*changes the active tab color for account management tabs*/
@@ -4564,8 +4565,9 @@ nav navbar-nav navbar-right > .active e > a:hover,
 nav navbar-nav navbar-right > .active > a:focus {
   color: #ffffff;
   background-color: #428bca;
-  padding-top:5px;
-  margin-top:70px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:65px;
  }
 
 .navbar-inverse .navbar-nav > .disabled > a,
